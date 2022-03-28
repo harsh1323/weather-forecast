@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+body{
+    background-color: rgb(110, 39, 151);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.app-wrap{
+    margin: 100px;
+}
+#search-box{
+    opacity: 0.5;
+    color: black;
+    box-shadow: 5px 5px; 
+}
+.location{
+    margin: 40px;
+}
+#city{
+    font-size: x-large;
+    font-weight: bolder;
+    color: white;
+    text-shadow: 1px 3px black;
+}
+
+#date{
+    color: white;
+    text-shadow: 1px 3px black;
+
+}
+#temp{
+    font-size: 80px;
+    color: white;
+    text-shadow: 1px 3px black;
+
+}
+.row{
+    margin: 50px;
+    color: white;
+    font-size: x-large;
+    text-shadow: 1px 3px black;
+}
+#hi-low{
+    margin:20px ;
+}
